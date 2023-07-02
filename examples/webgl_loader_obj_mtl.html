@@ -69,18 +69,18 @@
 				};
 
 				new MTLLoader()
-					.setPath( 'models/obj/male02/' )
-					.load( 'male02.mtl', function ( materials ) {
+					.setPath( 'models/obj/intelcar/' )
+					.load( 'bowl_with_texture.mtl', function ( materials ) {
 
 						materials.preload();
 
 						new OBJLoader()
 							.setMaterials( materials )
-							.setPath( 'models/obj/male02/' )
-							.load( 'male02.obj', function ( object ) {
+							.setPath( 'models/obj/intelcar/' )
+							.load( 'bowl_with_texture.obj', function ( object ) {
 
-								object.position.y = - 0.95;
-								object.scale.setScalar( 0.01 );
+								object.position.y = 0;
+								object.scale.setScalar( 1 );
 								scene.add( object );
 
 							}, onProgress );

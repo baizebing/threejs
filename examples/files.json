@@ -107,6 +107,7 @@
 		"webgl_loader_nrrd",
 		"webgl_loader_obj",
 		"webgl_loader_obj_mtl",
+		"webgl_loader_obj_intel_car",
 		"webgl_loader_pcd",
 		"webgl_loader_pdb",
 		"webgl_loader_ply",
